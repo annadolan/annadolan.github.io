@@ -27,12 +27,12 @@ a:link {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: line-through;
+}
+
 a:visited {
   color: #adad85;
-  font-family: Helvetica;
-  font-weight: lighter;
-  font-size: 1em;
-  text-decoration: none;
 }
 
 div {
@@ -41,12 +41,13 @@ div {
   font-weight: lighter;
   align-content: center;
   background-color: white;
-  opacity: 0.5;
+  opacity: 0.6;
   height: 100%;
   width: 75%;
   margin: 0 auto;
 }
-img {
+
+/*img {
   height: 50%;
   width: 50%;
-}
+}*/
