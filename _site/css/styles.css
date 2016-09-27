@@ -14,7 +14,7 @@ html {
 body h3 {
   text-align: center;
   color: #99994d;
-  font-size: 3.5em;
+  font-size: 3em;
   font-family: Helvetica;
   font-weight: lighter;
 }
@@ -46,8 +46,3 @@ div {
   width: 75%;
   margin: 0 auto;
 }
-
-/*img {
-  height: 50%;
-  width: 50%;
-}*/
