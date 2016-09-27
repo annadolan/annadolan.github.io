@@ -20,7 +20,7 @@ body h3 {
 }
 
 a:link {
-  color: #e6b800;
+  color: #6b6b47;
   font-family: Helvetica;
   font-weight: lighter;
   font-size: 1em;
@@ -28,7 +28,7 @@ a:link {
 }
 
 a:visited {
-  color: #669900;
+  color: #adad85;
   font-family: Helvetica;
   font-weight: lighter;
   font-size: 1em;
