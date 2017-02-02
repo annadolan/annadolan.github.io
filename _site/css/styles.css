@@ -71,8 +71,18 @@ body {
   text-decoration: none;
 }
 
-.enter {
-  color: black;
-  font-family: 'Ubuntu', cursive;
-  font-size: 4em;
+
+
+.projects-header {
+  color: white;
+  font-family: 'Coiny', cursive;
+}
+
+.nl {
+  opacity: .7;
+}
+
+.nl:hover {
+  opacity: 1;
+  text-decoration: none;
 }
