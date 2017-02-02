@@ -45,6 +45,11 @@ body {
   opacity: .9;
   max-height: 500px;
   max-width: auto;
+  opacity: .8;
+}
+
+.me-photo:hover {
+  opacity: 1;
 }
 
 .pad-top {
