@@ -40,7 +40,7 @@ body {
 }
 
 .me-photo {
-  margin-top: 50px;
+  margin-top: 40px;
   margin-left: 75px;
   opacity: .9;
   max-height: 500px;
@@ -51,8 +51,11 @@ body {
   padding-top: 50px;
 }
 
+.welcome {
+  margin-top: 50px;
+}
+
 .welcome>a {
-  margin-top: 65px;
   color: white;
   font-family: 'Coiny', cursive;
   font-size: 4em;
