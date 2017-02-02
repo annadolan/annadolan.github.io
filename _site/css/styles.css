@@ -1,48 +1,70 @@
-#kitten {
-  height: 100px;
+
+body {
+  background-color: #c3e5e4;
+  font-family: 'Nunito', sans-serif;
+}
+.navbar {
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 7px;
+  /*background: rgba(255, 255, 255, 0.7);*/
+  border-bottom: none;
+  min-height: 65px;
+  box-shadow: none;
 }
 
-
-html {
-  text-align: center;
-  background: url(http://s21.postimg.org/4ds7jpuef/IMG_8161.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.navbar-default {
+  background-color: white;
+  border-radius: 0px;
 }
-body h3 {
-  text-align: center;
-  color: #99994d;
+
+.navbar-default .navbar-header>a {
   font-size: 3em;
-  font-family: "Helvetica Neue", Helvetica;
-  font-weight: lighter;
+  font-family: 'Nunito', sans-serif;
+  color: #6accca;
 }
 
-a:link {
-  color: #6b6b47;
-  font-family: "Helvetica Neue", Helvetica;
-  font-weight: lighter;
-  font-size: 1em;
+.navbar-default .navbar-header>a:hover{
+  color: #d0efef;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+  color: #d0efef;
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-size: 2em;
+  font-family: 'Nunito', sans-serif;
+  font-weight: normal;
+  color: black;
+}
+
+.me-photo {
+  margin-top: 50px;
+  margin-left: 75px;
+  opacity: .9;
+  max-height: 500px;
+  max-width: auto;
+}
+
+.pad-top {
+  padding-top: 50px;
+}
+
+.welcome>a {
+  margin-top: 65px;
+  color: white;
+  font-family: 'Coiny', cursive;
+  font-size: 4em;
+}
+
+.welcome>a:hover {
+  color: black;
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: line-through;
-}
-
-a:visited {
-  color: #adad85;
-}
-
-div {
-  font-size: 1.25em;
-  font-family: Helvetica;
-  font-weight: lighter;
-  align-content: center;
-  background-color: white;
-  opacity: 0.6;
-  height: 100%;
-  width: 75%;
-  margin: 0 auto;
+.enter {
+  color: black;
+  font-family: 'Ubuntu', cursive;
+  font-size: 4em;
 }

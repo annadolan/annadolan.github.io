@@ -1,48 +1,12 @@
-#kitten {
-  height: 100px;
-}
 
-
-html {
-  text-align: center;
+body {
   background: url(http://s21.postimg.org/4ds7jpuef/IMG_8161.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-body h3 {
-  text-align: center;
-  color: #99994d;
-  font-size: 3em;
-  font-family: "Helvetica Neue", Helvetica;
-  font-weight: lighter;
-}
-
-a:link {
-  color: #6b6b47;
-  font-family: "Helvetica Neue", Helvetica;
-  font-weight: lighter;
-  font-size: 1em;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: line-through;
-}
-
-a:visited {
-  color: #adad85;
-}
-
-div {
-  font-size: 1.25em;
-  font-family: Helvetica;
-  font-weight: lighter;
-  align-content: center;
-  background-color: white;
-  opacity: 0.6;
-  height: 100%;
-  width: 75%;
-  margin: 0 auto;
+navbar {
+  background-color: transparent;
+  border-bottom: none;
 }
