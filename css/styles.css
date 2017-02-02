@@ -76,6 +76,7 @@ body {
 .projects-header {
   color: white;
   font-family: 'Coiny', cursive;
+  font-size: 3em;
 }
 
 .nl {
@@ -85,4 +86,23 @@ body {
 .nl:hover {
   opacity: 1;
   text-decoration: none;
+}
+
+.white-div {
+  background-color: white;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 30px;
+  opacity: .8;
+  border-radius: 5px;
+}
+
+.white-div>p {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.white-div:hover {
+  opacity: 1;
 }
