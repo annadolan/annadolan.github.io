@@ -155,17 +155,6 @@ body {
   font-size: 1.2em;
 }
 
-#resume {
-  float: right;
-  margin-right: 12em;
-}
-
-#projects {
-  float: left;
-  margin-left: 12em;
-
-}
-
 .thumb {
   max-height: 250px;
   max-width: auto;
@@ -173,4 +162,22 @@ body {
 
 .proj-head {
   font-family: 'Coiny', cursive;
+}
+
+.skill {
+  font-family: 'Coiny', cursive;
+  color: #c3e5e4;
+  font-size: 1.1em;
+}
+
+.subhead {
+  color: #67696d;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.right-align {
+  text-align: right;
 }
