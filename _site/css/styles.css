@@ -169,3 +169,8 @@ body {
 .close {
   float:right;
 }
+
+.badges {
+  height: 3em;
+  width: auto;
+}
