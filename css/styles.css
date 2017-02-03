@@ -181,3 +181,23 @@ body {
 .right-align {
   text-align: right;
 }
+
+.proj-link {
+  font-family: 'Coiny', cursive;
+  color: #c3e5e4;
+  font-size: 1.1em;
+}
+
+.proj-link:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.res-link {
+  color: #67696d;
+}
+
+.res-link:hover {
+  color: #c3e5e4;
+  text-decoration: none;
+}
