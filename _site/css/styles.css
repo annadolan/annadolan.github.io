@@ -55,9 +55,9 @@ body {
 
 
 .projects-header {
-  color: white;
+  color: white !important;
   font-family: 'Coiny', cursive;
-  font-size: 3em;
+  font-size: 300% !important;
 }
 
 .nl {
@@ -72,11 +72,11 @@ body {
 .white-div {
   /*background: rgba(255, 255, 255, 0.6);*/
   background-color: white;
-  margin-bottom: 30px;
-  margin-top: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
-  padding: 30px;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 3%;
   border-radius: 5px;
 
 }
@@ -93,7 +93,7 @@ body {
 .category-name>a {
   color: black;
   font-family: 'Coiny', cursive;
-  font-size: 2em;
+  font-size: 190%;
   margin-bottom: 20px;
 }
 
@@ -117,12 +117,12 @@ body {
   text-decoration: none;
 }
 
-.category-name {
+/*.category-name {
   font-size: 1.2em;
-}
+}*/
 
 .thumb {
-  max-height: 250px;
+  max-height: 100%;
   max-width: auto;
 }
 
@@ -133,7 +133,7 @@ body {
 .skill {
   font-family: 'Coiny', cursive;
   color: #c3e5e4;
-  font-size: 1.1em;
+  font-size: 90%;
 }
 
 .subhead {
@@ -180,4 +180,7 @@ body {
 .jumbotron {
   background-color: #c3e5e4;
   font-family: 'Nunito', sans-serif;
+}
+.text {
+  font-size: 80%;
 }
