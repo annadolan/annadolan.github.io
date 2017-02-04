@@ -4,6 +4,13 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
+@media (max-width: 480px) {
+  .container {
+    padding-top: 0;
+    margin-top: 0;
+  }
+}
+
 .me-photo {
   /*top: .2em;
   margin-left: 5em;*/
