@@ -10,19 +10,19 @@ body {
     margin: 0;
   }
 
-  .container-fluid {
+  /*.container-fluid {
     padding: 0;
     margin: 0;
-  }
+  }*/
 
   .jumbotron {
     padding-top: 0;
     padding-bottom: 0;
   }
 
-  /*body {
+  body {
     padding: 0;
-  }*/
+  }
 }
 
 .me-photo {
