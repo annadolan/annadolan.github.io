@@ -15,7 +15,7 @@ body {
     margin: 0;
   }*/
 
-  .jumbotron {
+  .jumbotron.main {
     padding-top: 0;
     padding-bottom: 0;
   }
