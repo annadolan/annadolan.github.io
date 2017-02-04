@@ -5,11 +5,13 @@ body {
 }
 
 .me-photo {
-  margin-top: 3em;
-  margin-left: 5em;
+  /*top: .2em;
+  margin-left: 5em;*/
   max-height: 36em;
-  max-width: auto;
+  /*max-width: auto;*/
   opacity: .8;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .me-photo:hover {
@@ -21,17 +23,19 @@ body {
 }
 
 .pad-bottom {
-  padding-bottom: 50px;
+  padding-bottom: 3em;
 }
 
 .welcome {
-  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  /*margin-top: .2em;*/
 }
 
 .welcome>a {
   color: white;
   font-family: 'Coiny', cursive;
-  font-size: 4em;
+  font-size: 2.3em;
 }
 
 .welcome>a:hover {
@@ -173,4 +177,9 @@ body {
 .badges {
   height: 3em;
   width: auto;
+}
+
+.jumbotron {
+  background-color: #c3e5e4;
+  font-family: 'Nunito', sans-serif;
 }
