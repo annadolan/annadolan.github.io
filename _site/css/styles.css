@@ -147,6 +147,11 @@ body {
   max-width: auto;
 }
 
+.resume {
+  max-width: 95%;
+  max-height: auto;
+}
+
 .proj-head {
   font-family: 'Coiny', cursive;
 }
